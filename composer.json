@@ -1,0 +1,21 @@
+{
+  "name": "vadym/cv-uploader",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "vadym",
+      "email": "nevidukvadim@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CVUploader\\": "app/"
+    }
+  }
+}
